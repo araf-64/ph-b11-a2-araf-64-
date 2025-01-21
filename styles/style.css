@@ -320,7 +320,6 @@ header {
   padding: 32px 40px;
   margin-right: 10px;
 }
-
 .stories-button {
   box-sizing: border-box;
   padding: 10px 40px;
@@ -332,6 +331,74 @@ header {
   border-radius: 12px;
 }
 
+
+/* footer section styles */
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #01acfd;
+  padding: 120px 140px;
+}
+.footer-title-container{
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.footer-logo{
+  width: 80px;
+}
+.footer-title{
+  font-size: 2.6rem;
+  color: #FFFFFF;
+}
+.footer-description{
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.footer-menu-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #FFFFFF;
+  gap: 32px;
+}
+.footer-menu-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer-menu-items-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-menu-item{
+  list-style: none;
+  font-size: 1.25rem;
+}
+.footer-icons-container{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-icon-title{
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.footer-icons{
+  display: flex;
+  gap: 10px;
+}
 /* media query section */
 /* mobile device section */
 @media screen and (max-width: 576px) {
@@ -363,7 +430,7 @@ header {
     text-align: center;
   }
   .banner-image {
-    width: 400px;
+    width: 100%;
     margin-bottom: 40px;
   }
 
@@ -385,6 +452,7 @@ header {
   /* stories section query */
   .stories {
     padding: 20px;
+    gap: 48px;
   }
   .stories-main-card-container {
     display: none;
@@ -396,5 +464,13 @@ header {
   .sub-image-description {
     margin: 0;
     padding: 0 20px 20px 20px;
+  }
+
+  /* footer section query */
+  footer{
+    margin: 0;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 80px;
   }
 }
