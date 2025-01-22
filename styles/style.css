@@ -17,6 +17,11 @@ header {
   padding: 16px 0;
 }
 
+/* shared styles */
+.hover:hover {
+  background-color: darkgray;
+  color: #000000;
+}
 /* navbar section styles */
 .navbar-container {
   display: flex;
@@ -331,9 +336,8 @@ header {
   border-radius: 12px;
 }
 
-
 /* footer section styles */
-footer{
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -341,61 +345,61 @@ footer{
   background-color: #01acfd;
   padding: 120px 140px;
 }
-.footer-title-container{
+.footer-title-container {
   width: 380px;
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-.footer-logo-container{
+.footer-logo-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
 }
-.footer-logo{
+.footer-logo {
   width: 80px;
 }
-.footer-title{
+.footer-title {
   font-size: 2.6rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.footer-description{
+.footer-description {
   font-size: 1.25rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.footer-menu-container{
+.footer-menu-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  color: #FFFFFF;
+  color: #ffffff;
   gap: 32px;
 }
-.footer-menu-title{
+.footer-menu-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
-.footer-menu-items-container{
+.footer-menu-items-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.footer-menu-item{
+.footer-menu-item {
   list-style: none;
   font-size: 1.25rem;
 }
-.footer-icons-container{
+.footer-icons-container {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
-.footer-icon-title{
+.footer-icon-title {
   font-size: 1.5rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.footer-icons{
+.footer-icons {
   display: flex;
   gap: 10px;
 }
@@ -467,7 +471,7 @@ footer{
   }
 
   /* footer section query */
-  footer{
+  footer {
     margin: 0;
     padding: 40px 20px;
     flex-direction: column;
