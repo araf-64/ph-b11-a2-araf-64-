@@ -76,21 +76,24 @@ header {
   display: flex;
   gap: 32px;
 }
+.nav-items li a {
+  text-decoration: none;
+}
 .nav-item {
   list-style: none;
   font-size: 1.25rem;
   font-weight: 600;
 }
-.nav-item-1 {
+.nav-item-1 a {
   color: #fea301;
 }
-.nav-item-2 {
+.nav-item-2 a {
   color: #01acfd;
 }
-.nav-item-3 {
+.nav-item-3 a {
   color: #05d4df;
 }
-.nav-item-4 {
+.nav-item-4 a {
   color: #5d58ef;
 }
 .nav-button {
@@ -230,7 +233,9 @@ header {
 .curriculum-details-3 {
   color: #5d58ef;
 }
-
+.curriculum-card a {
+  text-decoration: none;
+}
 .curriculum-card-slider {
   display: flex;
   justify-content: center;
@@ -421,6 +426,10 @@ footer {
   list-style: none;
   font-size: 1.25rem;
 }
+.footer-menu-item a {
+  text-decoration: none;
+  color: white;
+}
 .footer-icons-container {
   display: flex;
   flex-direction: column;
@@ -434,7 +443,7 @@ footer {
   display: flex;
   gap: 10px;
 }
-/* media query section */
+/* media query section (responsive only for mobile and desktop devices)*/
 /* mobile device section */
 @media screen and (max-width: 576px) {
   /* nav section query*/
